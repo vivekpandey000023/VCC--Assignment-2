@@ -1,28 +1,12 @@
-# GCP VM Auto-Scaling & Security Configuration
+# GCP VM Auto-Scaling & Security Config For VCC Project
 
 ## Overview
-
-This repository provides a complete, end-to-end solution for setting up a Google Cloud Platform (GCP) Virtual Machine (VM) with auto-scaling policies based on workload and robust security measures (firewall rules and IAM roles). It includes scripts, configuration files, and detailed testing procedures using tools such as `curl`, `nmap`, and `stress`, along with instructions for online testing via Ping.eu and WhatIsMyIP.com.
 
 The repository contains:
 - Scripts to create a VM instance with Apache installed.
 - Scripts to create an instance template and Managed Instance Group (MIG) for auto-scaling.
 - Scripts to configure custom firewall rules (allowing only a specific IP, e.g., `223.238.204.234/32`).
-- Scripts to set up IAM roles for restricted access.
-- Testing scripts to verify auto-scaling and firewall rule effectiveness.
-- Optional Terraform configuration for Infrastructure-as-Code deployment.
-- An architecture diagram and a detailed PDF project report.
-
-
-```
-
-## Prerequisites
-
-- A GCP account with billing enabled.
-- [Google Cloud SDK (gcloud)](https://cloud.google.com/sdk/docs/install) installed and configured.
-- A Unix-based terminal (macOS/Linux) or Windows (with a compatible shell).
-- Optional: [Terraform](https://www.terraform.io/) if you prefer using Infrastructure-as-Code.
-- Basic knowledge of command-line tools such as `curl`, `nmap`, `ssh`, and `ping`.
+- Scripts to set up IAM roles for restricted access
 
 ## Setup and Deployment Instructions
 
